@@ -1,0 +1,103 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-image: url(img/elbayan1.JPG);
+  background-color: #e2edff;
+  background-size: cover;
+  height: 670px;
+}
+.jumbotron h1 {
+  padding-top: 30px;
+  font-size: xx-large;
+  font-family: fantasy;
+  text-decoration-style: solid;
+  -webkit-text-fill-width: 1px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-fill-color: #019b01;
+}
+.jumbotron h3 {
+  color: #019b01;
+  font-weight: 100;
+  font-size: larger;
+  text-decoration-style: solid;
+  -webkit-text-fill-width: 5px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-fill-color: #019b01;
+}
+.jumbotron h6 {
+  color: #019b01;
+  font-size: larger;
+  text-decoration-style: solid;
+  -webkit-text-fill-width: 5px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-fill-color: #019b01;
+}
+
+footer {
+  position: absolute;
+
+  background: #1bd10ad5;
+  height: auto;
+  width: 98.3vw;
+  font-family: "Open-Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 400px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: blue;
+}
+.footer-bottom {
+  background: #1bd10ad5;
+  width: 98.3vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span {
+  text-transform: capitalize;
+  opacity: 0.4;
+  font-weight: 200;
+}
